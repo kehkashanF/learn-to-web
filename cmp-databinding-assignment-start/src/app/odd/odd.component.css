@@ -1,0 +1,9 @@
+.panel{
+    background-color: mistyrose;
+    padding: 20px;
+    border-color: palevioletred;
+}
+p{
+    text-align: center;
+    color: indigo;
+}

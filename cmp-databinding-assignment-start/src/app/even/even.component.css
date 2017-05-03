@@ -1,0 +1,9 @@
+.panel{
+    background-color: lightblue;
+    padding: 20px;
+    border-color: palegoldenrod;
+}
+p{
+    text-align: center;
+    color: darkblue;
+}
