@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { Recipe } from '../recipe.model';
 
 @Component({
@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 
+  @Output() chickRecipeSelected = new EventEmitter<Recipe>();
   recipes: Recipe[] = [
     new Recipe('Buldak', 'Buldak is a Korean dish made from heavily spiced chicken', 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Korean_barbeque-Buldak-01.jpg'),
     new Recipe('Coq au vin', 'Coq au vin is a French dish of chicken braised with wine, lardons, mushrooms, and optionally garlic.', 'https://i.ytimg.com/vi/HrtpoyY_rak/maxresdefault.jpg'),
@@ -18,6 +19,10 @@ export class RecipeListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onRecipeSelected(recipe: Recipe){
+      this.chickRecipeSelected.emit(recipe);
   }
 
 }

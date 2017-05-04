@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  nowShowingHeader: string = 'recipe';
 
+  showThis(feature: string){
+    this.nowShowingHeader=feature;
+  }
 }
