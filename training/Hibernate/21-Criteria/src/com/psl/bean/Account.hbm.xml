@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 19, 2015 2:30:33 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.psl.bean.Account" table="ACCOUNT">
+        <id name="accountId" type="int">
+            <column name="ACCOUNTID" />
+            <generator class="identity" />
+        </id>
+        <property name="balance" type="double">
+            <column name="BALANCE" />
+        </property>
+        <many-to-one name="user" class="com.psl.bean.User" fetch="join" >
+            <column name="USERID" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

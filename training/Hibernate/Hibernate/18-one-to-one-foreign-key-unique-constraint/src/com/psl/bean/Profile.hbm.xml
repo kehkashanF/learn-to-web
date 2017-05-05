@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 19, 2015 10:54:25 AM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.psl.bean.Profile" table="tbl_profile">
+        <id name="profileId" type="int">
+            <column name="PROFILEID" />
+            <generator class="identity" />
+            	
+        </id>
+        <property name="schoolYear" type="int">
+            <column name="SCHOOLYEAR" />
+        </property>
+        <property name="collegeYear" type="int">
+            <column name="COLLEGEYEAR" />
+        </property>
+        <one-to-one name="contact" 
+        			class="com.psl.bean.Contact"/>
+    </class>
+</hibernate-mapping>

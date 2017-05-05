@@ -1,0 +1,64 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="form-group">
+		<form action="EditPasswordBB" method="post">
+						Enter old password: <input type="password" name="oldPassword">
+						Enter new password: <input type="password" name="newPassword"
+							id="np1"> 
+							Re-enter new password: <input type="password"
+							name="tpPassword" id="np2" onblur="checkEqual()"> 
+							<label
+							id="l1" class="error-password">Passwords do not match!</label> 
+							<input
+							type="submit" name="Submit">
+					</form>
+		
+		
+		
+			<form action="EditPasswordBB" method="post">
+				<table align=center>
+					<tr>
+						<td><label class="sr-only" for="exampleInputEmail3">Enter current password:</label> Enter current password:</td>
+						<td>
+						
+						<input type="password" name="oldPassword" class="form-control" 
+							placeholder="Current Password" style="width: 300px;"
+							></td>
+					</tr>
+
+					<tr>
+
+							<td><label class="sr-only" for="exampleInputEmail3">Enter new password:</label>
+								Enter new password:</td>
+							<td>
+							<input type="password" name="newPassword"
+							id="np1" class="form-control"
+								placeholder="New Password" ></td>
+					</tr>
+
+					<tr>
+
+							<td><label class="sr-only" for="exampleInputEmail3">Re-enter new password:</label>
+								Re-enter new password:</td>
+							<td>
+							<input type="password"
+							name="tpPassword" id="np2" onblur="checkEqual()"
+							class="form-control" 
+								placeholder="Re-enter password">
+							
+							
+							<label id="l1" class="error-password">Passwords do not match!</label>
+							
+							</td>
+					</tr>
+</table>
+					<form>
+
+		</div>
+</body>
+</html>

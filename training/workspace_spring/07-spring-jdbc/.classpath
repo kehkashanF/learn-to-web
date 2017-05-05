@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringReq/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringReq/org.springframework.asm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringReq/org.springframework.beans-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringReq/org.springframework.context.support-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringReq/org.springframework.context-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringReq/org.springframework.core-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringReq/org.springframework.expression-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringJars/org.springframework.jdbc-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringJars/org.springframework.transaction-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/Hibernate/HibernateJars/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/Hibernate/HibernateJars/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="lib" path="//10.222.71.110/Data1/jar/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringJars/org.springframework.aop-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/JAVA Soft/SpringJars/com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form id="request-form" name="request" action="RequestSubmission"
+		method="post">
+		<table align=center>
+			<tr>
+
+
+				<div class="form-group">
+				<td><label class="sr-only" for="patientName">Patient's
+						Name: </label></td>
+				<td><input id="patientName" name="patientname" type="text"
+					class="form-control" placeholder="Patient Name"
+					style="width: 300px;"></td>
+				</div>
+			</tr>
+<tr>
+
+
+				<div class="form-group">
+				<td>Doctor's
+						Name: </label></td>
+				<td>
+				<input id="doctorName" name="doctorname" type="text"
+				
+					class="form-control" placeholder="Doctor Name"
+					style="width: 300px;"></td>
+				</div>
+			</tr>
+
+
+			<tr>
+
+
+
+
+				<div class="form-group">
+					<td><label class="sr-only" for="exampleInputEmail3">Required
+							Blood Group:</label></td>
+					<td><select name="rbg">
+							<option value="default">-Choose-</option>
+							<option value="O_POSITIVE">O+</option>
+							<option value="O_NEGATIVE">O-</option>
+							<option value="A_POSITIVE">A+</option>
+							<option value="A_NEGATIVE">A-</option>
+							<option value="B_POSITIVE">B+</option>
+							<option value="B_NEGATIVE">B-</option>
+							<option value="AB_POSITIVE">AB+</option>
+							<option value="AB_NEGATIVE">AB-</option>
+					</select></td>
+				</div>
+			</tr>
+
+			<tr>
+
+				<div class="form-group">
+					<td><label class="sr-only" for="exampleInputEmail3">Time
+							of requirement:</label></td>
+
+					<td><input name="requiredtime" type="date"
+						class="form-control" placeholder="Time of requirement"></td>
+				</div>
+			</tr>
+
+			<tr>
+				<div class="form-group">
+					<td><label class="sr-only" for="exampleInputEmail3">Units:
+					</label></td>
+					<td><input id="units" type="number" name="units"
+						class="form-control" placeholder="0"></td>
+				</div>
+			</tr>
+
+			
+			<tr>
+				<div class="form-group">
+					<td><label class="sr-only" for="exampleInputEmail3">Type of blood: </label></td>
+					<td><select name="bloodtype">
+							<option value="default">-Choose-</option>
+							<option value="PRC">PRC</option>
+							<option value="PC">PC</option>
+							<option value="FFP">FFP</option>
+							<option value="WB">Whole Blood</option>
+						</select></td>
+				</div>
+			</tr>
+
+			
+			<td>
+				<button type="submit" class="btn btn-default" value="Submit"></button>
+			</td>
+
+		</table>
+	</form>
+</body>
+</html>

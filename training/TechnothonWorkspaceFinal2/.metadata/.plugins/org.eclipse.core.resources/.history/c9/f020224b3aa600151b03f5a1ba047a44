@@ -1,0 +1,164 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="form-group">
+		<form action="EditPasswordBB" method="post">
+						Enter old password: <input type="password" name="oldPassword">
+						Enter new password: <input type="password" name="newPassword"
+							id="np1"> 
+							Re-enter new password: <input type="password"
+							name="tpPassword" id="np2" onblur="checkEqual()"> 
+							<label
+							id="l1" class="error-password">Passwords do not match!</label> 
+							<input
+							type="submit" name="Submit">
+					</form>
+		
+		
+		
+			<form action=""EditPasswordBB"" method="post">
+				<table align=center>
+					<tr>
+						<td><label class="sr-only" for="exampleInputEmail3">Enter current password:</label> Enter current password:</td>
+						<td>
+						
+						<input type="password" name="oldPassword" class="form-control" 
+							placeholder="Current Password" style="width: 300px;"
+							></td>
+					</tr>
+
+					<tr>
+
+							<td><label class="sr-only" for="exampleInputEmail3">Enter new password:</label>
+								Enter new password:</td>
+							<td>
+							<input type="password" name="newPassword"
+							id="np1" class="form-control"
+								placeholder="New Password" ></td>
+					</tr>
+
+					<tr>
+
+							<td><label class="sr-only" for="exampleInputEmail3">Re-enter new password:</label>
+								Re-enter new password:</td>
+							<td>
+							<input type="password"
+							name="tpPassword" id="np2" onblur="checkEqual()"> 
+							<td><
+							input type="password" class="form-control" id="pwd1"
+								placeholder="password" name="password"></td>
+							
+							
+							<label
+							id="l1" class="error-password">Passwords do not match!</label>
+							
+							
+							<
+					</tr>
+
+					<tr>
+
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">Re-enter
+									Password: </label> Re-enter Password:</td>
+							<td><input type="password" class="form-control" id="pwd2"
+								name="password1" onblur="confirmPassword();"
+								placeholder="Password"><label id="l1" for="pwd2"
+								class="error-password">Passwords do not match!</label></td>
+						</div>
+					</tr>
+
+					<tr>
+					<tr>
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">B.T.O's
+									Name: </label> B.T.O's Name:</td>
+							<td><input type="text" class="form-control" id="btoName1"
+								name="btoName" placeholder="B.T.O's Name"></td>
+						</div>
+					</tr>
+
+					<tr>
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">Contact
+									No.: </label> Contact No.:</td>
+							<td><input type="number" class="form-control" id="contact1"
+								name="contact" placeholder="Contact"></td>
+						</div>
+					</tr>
+
+					<tr>
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">License
+									No.: </label> License No.:</td>
+							<td><input type="text" class="form-control" id="lNum1"
+								name="lNum" placeholder="License No."></td>
+						</div>
+					</tr>
+
+					<tr>
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">Circle:
+							</label> Circle:</td>
+							<td><input type="text" class="form-control" id="circle1"
+								name="circle" placeholder="Circle"></td>
+						</div>
+					</tr>
+
+					<tr>
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">Address:
+							</label> Address:</td>
+							<td><textarea rows="4" cols="6" class="form-control"
+									id="address1" placeholder="Address" name="address"> </textarea></td>
+						</div>
+					</tr>
+
+					<tr>
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">Pincode:
+							</label> Pincode:</td>
+							<td><input type="text" class="form-control" id="pincode1"
+								name="pincode" placeholder="Pincode"></td>
+						</div>
+					</tr>
+
+					<tr>
+						<div class="form-group">
+							<td><label class="sr-only" for="exampleInputEmail3">Functional:
+							</label> Functional:</td>
+							<!--     <td>    <input type="radio" name = "func" class="form-control" id="func11" placeholder="Functional1" value="YES" checked ></td> -->
+							<!--      <td>    <input type="radio" name = "func" class="form-control" id="func11" placeholder="Functional1" value="NO"></td> -->
+							<td><INPUT TYPE="radio" NAME="func" VALUE="radio1" CHECKED>
+								YES <BR> <INPUT TYPE="radio" NAME="func" VALUE="radio2">
+								NO <BR></td>
+						</div>
+					</tr>
+
+					<td>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</td>
+
+				</table>
+			</form>
+			<script type="text/javascript">
+				function confirmPassword() {
+					var pwd1 = document.getElementById("pwd1").value;
+					var pwd2 = document.getElementById("pwd2").value;
+					if (pwd1 === pwd2) {
+						document.getElementById("l1").style.display = "none";
+
+					} else {
+						document.getElementById("l1").style.display = "inline";
+
+					}
+				}
+			</script>
+
+		</div>
+</body>
+</html>
