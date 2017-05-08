@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Mon Dec 21 12:47:30 IST 2015
-org.eclipse.jst.jee.server\:/binary\:C\:\\Baha\ Aiman\\TechnothonWorkspaceFinal\\ibms\\WebContent\\WEB-INF\\lib\\spring-web-3.2.4.RELEASE.jar=WEB-INF/lib/spring-web-3.2.4.RELEASE.jar

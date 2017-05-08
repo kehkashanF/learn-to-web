@@ -1,6 +1,0 @@
-<project name="aa">
-	
-	<target name="aa">
-		<echo>Hello </echo>	
-	</target>
-</project>

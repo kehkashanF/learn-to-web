@@ -1,9 +1,0 @@
-INDEX VERSION 1.3+C:\Baha Aiman\TechnothonWorkspaceFinal\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1669437624.index
-3028307155.index
-321705385.index
-3030580565.index
-803424124.index
-888885830.index
-3245786977.index
-2535982148.index
