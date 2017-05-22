@@ -9,8 +9,9 @@
 <div class="row">
   <div class="col-xs-12">
   <app-recipe-item
-  *ngFor="let chickenEl of recipes"
-  [chicken]="chickenEl"></app-recipe-item>
+  *ngFor="let chickenEl of recipes; let i = index"
+  [chicken]="chickenEl"
+  [index]="i"></app-recipe-item>
   </div>
 </div>
 
