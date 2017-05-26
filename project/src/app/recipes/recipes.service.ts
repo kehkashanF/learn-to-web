@@ -5,8 +5,6 @@ import { Injectable, EventEmitter, OnInit } from '@angular/core';
 
 @Injectable()
 export class RecipesService implements OnInit{
- 
-  recipeSelected = new EventEmitter<Recipe>();
 
   private recipes: Recipe[] = [
     new Recipe('Buldak', 
